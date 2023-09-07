@@ -7,6 +7,10 @@ response = requests.get('http://216.10.245.166/Library/GetBook.php',
 # print(type(response.text))
 
 json_response = response.json()
+print(json_response)
+print(json_response)
+print(json_response)
+
 
 for actualbook in json_response:
     if actualbook['isbn']  == 'RGHCC':
