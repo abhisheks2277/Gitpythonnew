@@ -12,6 +12,12 @@ print(json_response)
 print(json_response)
 
 
+print(json_response)
+print(json_response)
+print(json_response)
+print(type(response.text))
+print(type(response.text))
+
 for actualbook in json_response:
     if actualbook['isbn']  == 'RGHCC':
         print(actualbook)
